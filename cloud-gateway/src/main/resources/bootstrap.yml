@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      import-check:
+        enabled: false
+      enabled: true
+      uri: http://localhost:5005
+
